@@ -10,12 +10,18 @@ void Iterate_Vector(vector<int> &v)
   cout << endl;
 }
 
-int main()
+void init()
 {
 #ifndef ONLINE_JUDGE
   freopen("../input.txt", "r", stdin);
   freopen("../output.txt", "w", stdout);
 #endif
+}
+
+int main()
+{
+
+  init();
 
   // The time complexity for doing various operations on vectors is-
   //    Random access – constant O(1)
@@ -25,7 +31,8 @@ int main()
   //    Resizing the vector- Linear O(N)
 
   // Initializing the vector
-  vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+  vector<int>
+      v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
 
   // 1st way of iterating over the vector
   for (auto x : v)
