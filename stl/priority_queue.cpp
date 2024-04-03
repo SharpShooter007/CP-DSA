@@ -14,6 +14,7 @@ int main()
   init();
   // max head
   priority_queue<int> max_hp;
+  // min heap
   priority_queue<int, vector<int>, greater<int>> min_hp;
 
   vector<int> v = {89, 30, 45, 12, 48, 90, 98, 28};
