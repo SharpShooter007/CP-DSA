@@ -42,6 +42,20 @@ for(auto itr = s.begin(); itr != s.end(); itr ++) {
 }
 cout<<endl;
 
+
+set<int,greater<int>>s2;
+
+s2.insert(13);
+s2.insert(11);
+s2.insert(10);
+s2.insert(34);
+s2.insert(89);
+
+for(auto itr = s2.begin(); itr != s2.end(); itr ++) {
+    cout<<*itr<<" ";
+}
+cout<<endl;
+
 vector<int> v = {10,34,55};
 
 for(auto i: v) {
@@ -66,7 +80,7 @@ for(auto i: s){
 cout<<endl;
 
 // Deleting all the elements from the set
-s.clear()
+s.clear();
 
 
 

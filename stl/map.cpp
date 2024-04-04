@@ -27,9 +27,24 @@ int main(){
     mp.insert({280,14});
 
     for(auto i: mp){
-        cout<<i.first<<":"<<i.second<<endl;
+        cout<<i.first<<":"<<i.second<<" , ";
     }
 
+cout<<endl;
+
+ map<string,int, greater<string>>mp2;
+    mp2.insert({"varun",4});
+    mp2.insert({"sameer",7});
+    mp2.insert({"reetu",8});
+    mp2.insert({"heena",6});
+    mp2.insert({"rahul",17});
+    mp2.insert({"sohel",14});
+
+    for(auto i: mp2){
+        cout<<i.first<<":"<<i.second<<" , ";
+    }
+
+cout<<endl;
     // returns 1 if the element is present in the map else returns 0  -> O(log N)
     cout<<"occurence of 30 in the map: "<<mp.count(30)<<endl;
 
