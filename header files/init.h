@@ -1,2 +1,0 @@
-#pragma
-void init();
